@@ -1,1 +1,85 @@
 /* Add you CSS here */
+/* Basic page setup */
+/* General page styling */
+/* Basic page setup */
+body {
+    background-color: #303645;
+    color: #e2e8f0;
+    font-family: Lucida Console, Arial, sans-serif;
+    margin: 0;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+/* Main content */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+#banner {
+    background-image:url(img/hero-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+/* Profile image */
+#banner img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 25px;
+}
+
+/* Main heading */
+#banner h1 {
+    border: none;
+}
+
+#banner h2 {
+    margin: auto;
+    padding: 5px;
+    font-size: 18px;
+    width: 35%;
+    font-weight: normal;
+    border: none;
+    background-color:white;
+    border-radius: 6px;
+}
+
+h2 {
+    color: #5dc684;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 10px;
+}
+
+#skills {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    display: inline-block;
+    background-color: #5dc684;
+    color: white;
+    text-decoration: none;
+    padding: 10px 18px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+a:hover {
+    background-color: white;
+    color: #5dc684;
+}
