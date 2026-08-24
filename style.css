@@ -21,7 +21,6 @@ main {
     text-align: center;
 }
 
-/* Profile image */
 #banner img {
     height: 150px;
     width: 150px;
@@ -30,7 +29,6 @@ main {
     margin: 0 auto 25px;
 }
 
-/* Main heading */
 #banner h1 {
     border: none;
 }
